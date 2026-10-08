@@ -1,0 +1,18 @@
+metric,value,unit,note
+clock_period,2.5,ns,400 MHz
+setup_wns_reg2reg,0.045,ns,post-route OCV; post-CTS clock uncertainty 0.05 ns
+setup_wns_io,0.868,ns,
+setup_violating_paths,0,,
+hold_wns_reg2reg,0.229,ns,
+hold_wns_io,0.308,ns,
+hold_violating_paths,0,,
+setup_wns_reg2reg_unc_0p10,-0.005,ns,same layout with pre-CTS uncertainty 0.10 ns kept (1 path)
+drc_violations,0,,verify_drc
+connectivity_issues,0,,verifyConnectivity
+std_cell_area_excl_fillers,94399.695,um^2,
+synthesis_cell_area,81211.43,um^2,DC at 2.5 ns
+chip_area,140738.016,um^2,about 375 um x 375 um
+core_density_excl_fillers,74.901,%,
+flip_flops,2893,,
+total_power,98.398,mW,vectorless; 20% default toggle rate
+energy_per_mac,15.4,pJ,98.4 mW / (16 MACs x 400 MHz)
